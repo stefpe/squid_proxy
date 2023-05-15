@@ -1,7 +1,7 @@
 version: "3"
 services:
   proxy:
-    image: datadog/squid
+    image: ubuntu/squid
     ports:
       - "8080:3128"
     volumes:
